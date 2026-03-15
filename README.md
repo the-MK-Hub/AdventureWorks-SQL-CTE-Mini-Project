@@ -77,9 +77,12 @@ Each of the below is implemented using one or more CTEs in the script:
 
 ## 🚀 How to Use
 
-1. Import or connect to the Adventure Works sales dataset in your SQL environment.  
-2. Make sure the tables `factsales` and `dimsalesterritory` (or equivalent) exist with the required columns.  
-3. Run the script `CTE-s_Mini_Project.sql` section by section to explore each analysis.
+1. Import or connect to the Adventure Works Internet Sales datasets in Excel or your personal workspace.  
+2. Merge the two Internet Sales fact datasets in Excel to create the final consolidated `factsales` table.  
+3. Load the merged `factsales` table and the `dimsalesterritory` table into your SQL environment.  
+4. Make sure both tables exist with the required columns.  
+5. Run the script `CTE-s_Mini_Project.sql` section by section to explore each analysis.
+
 
 ---
 
